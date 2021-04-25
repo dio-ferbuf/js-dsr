@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Introduction</title>
+</head>
+
+<body>
+
+    <script>
+        console.log("I'm learn javascript");
+        document.write('Hello World');
+    </script>
+    <br />
+    <a href="#" onclick="javascript:alert('Sip')">Click</a>
+    <br />
+    <!-- js external -->
+    
+    <br/>
+    <textarea onkeyup="document.getElementById('counter').innerText = this.value.length " cols="30" rows="10"></textarea>
+    <p>Anda telah mengetik <span id="counter"></span> karakter</p>
+
+    <!-- 
+        Mencetak Teks ke Layar
+        alert() : menampilkan output ke jendela dialog
+        innerHTML : menampilkan output ke elemen HTML yang lebih spesifik 
+        console.log() : menampilkan output ke console
+        document.write() : menampilkan output ke jendela dokument HTML
+     -->
+     <h1>Print Text to Screen</h1>
+     <div id="output"></div>
+     <script>
+        var result = document.getElementById("output");
+        result.innerHTML = "<p>Stressed Out<p/>";
+     </script>     
+     <script src="introduction.js">0</script>
+     <p style="background-color:black" target="_self">ini isi dari elemen p</p>
+</body>
+
+</html>
